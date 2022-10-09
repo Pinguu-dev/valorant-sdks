@@ -1,0 +1,25 @@
+// BlueprintGeneratedClass Melee_Skin_Base.Melee_Skin_Base_C
+// Size: 0x340 (Inherited: 0x118)
+struct UMelee_Skin_Base_C : UAresWeaponAttachmentComponent {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x118(0x08)
+	struct UAnimInstance* Weapon Cosmetic AnimGraph; // 0x120(0x08)
+	struct USkeletalMesh* NewMesh; // 0x128(0x08)
+	struct USkeletalMesh* 3p Mesh; // 0x130(0x08)
+	struct TMap<struct UAnimSlot1P*, struct UAnimationAsset*> AnimationOverridesMap; // 0x138(0x50)
+	struct TMap<struct TSoftClassPtr<UObject>, struct AEffectContainer*> EffectOverrides; // 0x188(0x50)
+	struct TArray<struct UMaterialInterface*> 1p MaterialOverrides; // 0x1d8(0x10)
+	struct TArray<struct UMaterialInterface*> 3p Material Overrides; // 0x1e8(0x10)
+	int32_t Combo Number; // 0x1f8(0x04)
+	char pad_1FC[0x4]; // 0x1fc(0x04)
+	struct TMap<struct UAnimSlotUpperBody3P*, struct UAnimationAsset*> AnimUpperBody3POverridesMap; // 0x200(0x50)
+	struct TMap<struct UAnimSlotLowerBody3P*, struct UAnimationAsset*> AnimLowerBody3POverridesMap; // 0x250(0x50)
+	struct UKillBannerData* KillBannerData; // 0x2a0(0x08)
+	struct TArray<struct FGunSkinVFXMeshInfo> VFX Meshes; // 0x2a8(0x10)
+	struct TArray<struct UStaticMeshComponent*> VFX Spawned Meshes; // 0x2b8(0x10)
+	struct TArray<struct UMaterialInstanceDynamic*> VFX Mesh Dynamic Materials; // 0x2c8(0x10)
+	struct UBaseGunSkinVOComponent_C* VO Component; // 0x2d8(0x08)
+	struct UBaseGunSkinVOComponent_C* Spawned VO Component; // 0x2e0(0x08)
+	struct TMap<struct UAnimSlot1P*, struct UAnimationAsset*> AltMode_AnimationOverridesMap; // 0x2e8(0x50)
+	struct AAbility_Melee_Base_C* Owned Weapon; // 0x338(0x08)
+};
+

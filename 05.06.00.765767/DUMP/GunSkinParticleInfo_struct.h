@@ -1,0 +1,25 @@
+// UserDefinedStruct GunSkinParticleInfo.GunSkinParticleInfo
+// Size: 0x7d (Inherited: 0x00)
+struct FGunSkinParticleInfo {
+	struct TSoftObjectPtr<UParticleSystem> Particle_88_5283C92146A65819848D20810E13524B; // 0x00(0x30)
+	struct FName VFXAttachPoint_9_681899B440239DB0256A3CA95EE799D8; // 0x30(0x0c)
+	struct FVector ParticleSpawnLocationOffset_5_2E44428C430F402269C8E688CD5C4E3C; // 0x3c(0x0c)
+	struct FRotator ParticleSpawnRotationOffset_8_6EC1943B41AE4AC6682A30A9AD351616; // 0x48(0x0c)
+	enum class ELHMMirroringIgnoreType MirroringIgnoreType_84_1D643D9E4AD60196282D25B5B5A3B5B3; // 0x54(0x01)
+	bool IsFirstPerson_14_E4F6E3C74009B04F512DFF9DDA24485E; // 0x55(0x01)
+	char pad_56[0x2]; // 0x56(0x02)
+	int32_t SortPriority_17_5BBE94FA4D018B7F468E9D8A6EF52180; // 0x58(0x04)
+	bool AttachToVFX_Camera_20_017D9A9E49E9791E1D4E3B8E7CD20368; // 0x5c(0x01)
+	char pad_5D[0x3]; // 0x5d(0x03)
+	struct TArray<struct FStruct_ParticleOverrides> ParticleOverrides_52_66C13821402652678C95E9A1D9404761; // 0x60(0x10)
+	bool HideOnFire?_64_71E8CBAB41CF1676E4C6E391FC4EA46F; // 0x70(0x01)
+	bool HideOnEquip_65_5515CD4541582FFCDBC6C59690794315; // 0x71(0x01)
+	bool HideOnReload_66_5FB46BF54601A5FB3E49EFA6724D64F4; // 0x72(0x01)
+	bool HideOnIdle_68_20AE712F40FE2CE1FA415FAE419E3EA2; // 0x73(0x01)
+	bool HideOnADS_79_4A6E93854915C953E287ACA770939EE5; // 0x74(0x01)
+	bool HideOnInspect_81_EA36F684409A1FC3D300B686B4027F88; // 0x75(0x01)
+	char pad_76[0x2]; // 0x76(0x02)
+	float HideTimeAfterFire_74_F35465C24C2F2610D00EA8887C1FDDD7; // 0x78(0x04)
+	enum class EAresParticleVariantColor Variant_87_B39145DF4D1CE92FBE43DFB34317982F; // 0x7c(0x01)
+};
+

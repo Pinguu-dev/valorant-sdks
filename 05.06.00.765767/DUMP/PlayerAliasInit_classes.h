@@ -1,0 +1,26 @@
+// WidgetBlueprintGeneratedClass PlayerAliasInit.PlayerAliasInit_C
+// Size: 0x510 (Inherited: 0x2c8)
+struct UPlayerAliasInit_C : UUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x2c8(0x08)
+	struct UTextBlock* ErrorText; // 0x2d0(0x08)
+	struct UEditableTextBox* GameNameInput; // 0x2d8(0x08)
+	struct UTextBlock* GameNameTaglineSeparator; // 0x2e0(0x08)
+	struct UImage* Image_59; // 0x2e8(0x08)
+	struct UImage* Image_201; // 0x2f0(0x08)
+	struct UImage* Image_203; // 0x2f8(0x08)
+	struct UImage* PlayerAlias_SelectName_Logo; // 0x300(0x08)
+	struct UImage* PlayerAliasFrame_bg; // 0x308(0x08)
+	struct USharedButtonMaster_C* SharedButtonMaster; // 0x310(0x08)
+	struct UEditableTextBox* TagLineInput; // 0x318(0x08)
+	struct UTextBlock* TextBlock_255; // 0x320(0x08)
+	struct UImage* ValidationIcon; // 0x328(0x08)
+	enum class EInputValidated NameValidity; // 0x330(0x01)
+	char pad_331[0x3]; // 0x331(0x03)
+	float ValidationDelaySeconds; // 0x334(0x04)
+	struct FSlateBrush ValidationFailedIcon; // 0x338(0x90)
+	struct FSlateBrush ValidationPassedIcon; // 0x3c8(0x90)
+	struct FSlateBrush ValidationProcessingIcon; // 0x458(0x90)
+	struct FText ValidationErrorMessage; // 0x4e8(0x18)
+	struct TArray<struct FString> ErrorList; // 0x500(0x10)
+};
+

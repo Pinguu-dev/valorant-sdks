@@ -1,0 +1,28 @@
+// BlueprintGeneratedClass Comp_FXC_PlayAnimation_ShooterCharacter.Comp_FXC_PlayAnimation_ShooterCharacter_C
+// Size: 0x17e (Inherited: 0xf8)
+struct UComp_FXC_PlayAnimation_ShooterCharacter_C : UEffectComponent {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0xf8(0x08)
+	struct UAnimMontage* 1P_Animation; // 0x100(0x08)
+	struct UAnimMontage* 1P_Overlay_Animation; // 0x108(0x08)
+	struct UAnimMontage* 3P_Animation; // 0x110(0x08)
+	struct UAnimMontage* 3P_Cosmetic_Animation; // 0x118(0x08)
+	bool StopAnimWhenEffectIsDestroyed; // 0x120(0x01)
+	char pad_121[0x3]; // 0x121(0x03)
+	float StopAnimBlendOutTime; // 0x124(0x04)
+	float 1P_PlayRate; // 0x128(0x04)
+	float 3P_PlayRate; // 0x12c(0x04)
+	struct AShooterCharacter* OwningShooterCharacter; // 0x130(0x08)
+	float StartTime; // 0x138(0x04)
+	float TimeModifier; // 0x13c(0x04)
+	bool DestroyEffectWhenAnimIsInterrupted; // 0x140(0x01)
+	char pad_141[0x7]; // 0x141(0x07)
+	struct TArray<struct FStruct_PlayingMontage> ActiveMontages; // 0x148(0x10)
+	struct FMulticastInlineDelegate DispatchMontageStopped; // 0x158(0x10)
+	bool bManualStart; // 0x168(0x01)
+	char pad_169[0x7]; // 0x169(0x07)
+	struct AAresEquippable* AssociatedEquippable; // 0x170(0x08)
+	float MontageEndTime; // 0x178(0x04)
+	bool Debug Montage State; // 0x17c(0x01)
+	bool 3PDelayDeadAndSettled; // 0x17d(0x01)
+};
+

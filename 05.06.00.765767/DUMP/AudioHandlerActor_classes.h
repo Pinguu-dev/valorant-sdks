@@ -1,0 +1,27 @@
+// BlueprintGeneratedClass AudioHandlerActor.AudioHandlerActor_C
+// Size: 0x5f8 (Inherited: 0x430)
+struct AAudioHandlerActor_C : AAresSoundHandler {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x430(0x08)
+	float TimeSinceStatUpdate; // 0x438(0x04)
+	float StatUpdateInterval; // 0x43c(0x04)
+	bool StatsEnabled; // 0x440(0x01)
+	char pad_441[0x3]; // 0x441(0x03)
+	float Whiz_MaxDistance; // 0x444(0x04)
+	float Whiz_MidMaxDist; // 0x448(0x04)
+	float Whiz_CloseMaxDist; // 0x44c(0x04)
+	struct TArray<struct UObject*> AudioMessageListeners; // 0x450(0x10)
+	float LastBulletWhizTime; // 0x460(0x04)
+	char pad_464[0x4]; // 0x464(0x04)
+	struct UAkAudioEvent* Aud_PingEvent; // 0x468(0x08)
+	bool MultiSource; // 0x470(0x01)
+	char pad_471[0x7]; // 0x471(0x07)
+	struct FExplicitFloatCurve OcclusionCurveByDistance; // 0x478(0x88)
+	struct TMap<struct UAresAudioComponent*, struct FAudioEventList> OcclusionQueries; // 0x500(0x50)
+	struct FAudioEventList NewEventList; // 0x550(0x10)
+	struct FExplicitFloatCurve OcclusionCurveByDifference; // 0x560(0x88)
+	struct FAkChannelMask LeftChannelMask; // 0x5e8(0x04)
+	struct FAkChannelMask RightChannelMask; // 0x5ec(0x04)
+	float BaseFootstepRadius; // 0x5f0(0x04)
+	float CurrentFootstepRadius; // 0x5f4(0x04)
+};
+
