@@ -20,7 +20,7 @@ struct UWeapon_Skin_Base_C : UAresWeaponAttachmentComponent {
 	char pad_242[0x6]; // 0x242(0x06)
 	struct UStaticMesh* BulletMeshOverride; // 0x248(0x08)
 	struct UMaterialInterface* BulletMaterialOverride; // 0x250(0x08)
-	int32_t numBullets; // 0x258(0x04)
+	int32_t NumBullets; // 0x258(0x04)
 	struct FName Bullet Socket; // 0x25c(0x0c)
 	struct AEffectContainer* FXC Kill Effect; // 0x268(0x08)
 	struct FName On Kill Attach Socket; // 0x270(0x0c)

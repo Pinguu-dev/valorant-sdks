@@ -5,7 +5,7 @@ struct UBulletComponent_C : UAresWeaponAttachmentComponent {
 	enum class BulletEnum BulletEnum; // 0x120(0x01)
 	char pad_121[0x7]; // 0x121(0x07)
 	struct TArray<struct UStaticMesh*> BulletMeshList; // 0x128(0x10)
-	int32_t numBullets; // 0x138(0x04)
+	int32_t NumBullets; // 0x138(0x04)
 	char pad_13C[0x4]; // 0x13c(0x04)
 	struct TArray<struct UStaticMeshComponent*> PrimaryBulletArray; // 0x140(0x10)
 	struct FName SocketName; // 0x150(0x0c)
