@@ -2,4 +2,4 @@
 
 Always up 2 date :)
 
-Current Game Version: 05.10.00.794881
+Current Game Version: 05.12.00.803573
