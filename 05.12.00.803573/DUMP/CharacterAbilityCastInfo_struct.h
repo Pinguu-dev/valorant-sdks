@@ -1,0 +1,18 @@
+// UserDefinedStruct CharacterAbilityCastInfo.CharacterAbilityCastInfo
+// Size: 0x58 (Inherited: 0x00)
+struct FCharacterAbilityCastInfo {
+	struct FString ; // 0x00(0x10)
+	enum class EAresItemSlot ; // 0x10(0x01)
+	char pad_11[0x3]; // 0x11(0x03)
+	int32_t ; // 0x14(0x04)
+	enum class EAresGamePhase ; // 0x18(0x01)
+	char pad_19[0x3]; // 0x19(0x03)
+	float ; // 0x1c(0x04)
+	struct FVector ; // 0x20(0x0c)
+	char pad_2C[0x4]; // 0x2c(0x04)
+	struct TArray<struct FVector> ; // 0x30(0x10)
+	int32_t ; // 0x40(0x04)
+	char pad_44[0x4]; // 0x44(0x04)
+	struct TArray<struct FCharacterAbilityEffectInfo> ; // 0x48(0x10)
+};
+

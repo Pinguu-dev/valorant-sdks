@@ -1,0 +1,26 @@
+// UserDefinedStruct KillBannerStruct.KillBannerStruct
+// Size: 0xb0 (Inherited: 0x00)
+struct FKillBannerStruct {
+	struct FLinearColor ; // 0x00(0x10)
+	struct U* ; // 0x10(0x08)
+	struct UTexture2D* ; // 0x18(0x08)
+	struct UTexture2D* ; // 0x20(0x08)
+	struct UTexture2D* ; // 0x28(0x08)
+	struct UTexture2D* ; // 0x30(0x08)
+	struct UTexture2D* ; // 0x38(0x08)
+	float ; // 0x40(0x04)
+	char pad_44[0x4]; // 0x44(0x04)
+	struct UTexture2D* ; // 0x48(0x08)
+	struct FVector2D ; // 0x50(0x08)
+	struct UTexture2D* ; // 0x58(0x08)
+	struct TArray<struct UPaperFlipbook*> ; // 0x60(0x10)
+	struct UAkAudioEvent* ; // 0x70(0x08)
+	struct UAkAudioEvent* ; // 0x78(0x08)
+	struct UAkAudioEvent* ; // 0x80(0x08)
+	struct UAkAudioEvent* ; // 0x88(0x08)
+	struct UAkAudioEvent* ; // 0x90(0x08)
+	struct UAkAudioEvent* ; // 0x98(0x08)
+	struct UAkAudioEvent* ; // 0xa0(0x08)
+	struct UAkAudioEvent* ; // 0xa8(0x08)
+};
+
