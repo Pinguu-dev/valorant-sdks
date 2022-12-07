@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass OutlinesNoneActionTraits.OutlinesNoneActionTraits_C
+// Size: 0x50 (Inherited: 0x50)
+struct UOutlinesNoneActionTraits_C : UActionTraits {
+};
+

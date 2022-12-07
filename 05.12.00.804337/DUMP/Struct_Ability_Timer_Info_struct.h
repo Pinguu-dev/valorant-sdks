@@ -1,0 +1,11 @@
+// UserDefinedStruct Struct_Ability_Timer_Info.Struct_Ability_Timer_Info
+// Size: 0x29 (Inherited: 0x00)
+struct FStruct_Ability_Timer_Info {
+	float ; // 0x00(0x04)
+	float ; // 0x04(0x04)
+	bool ; // 0x08(0x01)
+	char pad_9[0x7]; // 0x09(0x07)
+	struct FText ; // 0x10(0x18)
+	bool ; // 0x28(0x01)
+};
+

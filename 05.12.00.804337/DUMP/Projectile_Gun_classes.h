@@ -1,0 +1,17 @@
+// BlueprintGeneratedClass Projectile_Gun.Projectile_Gun_C
+// Size: 0x530 (Inherited: 0x4f0)
+struct AProjectile_Gun_C : AProjectile {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x4f0(0x08)
+	struct UHitScanMovementComponent* ; // 0x4f8(0x08)
+	struct UBulletWhizByComponent* BulletWhizByComponent; // 0x500(0x08)
+	struct UTaggingComponent* TaggingComponent; // 0x508(0x08)
+	struct UTracerProjectileEffectComponent* TracerProjectileEffectComponent; // 0x510(0x08)
+	struct UDamageProjectileEffectComponent* DamageProjectileEffectComponent; // 0x518(0x08)
+	struct UWallPenetrationComponent* WallPenetrationComponent; // 0x520(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x528(0x08)
+
+	void ReceiveBeginPlay(); // Function Projectile_Gun.Projectile_Gun_C.ReceiveBeginPlay // (Event|Protected|BlueprintEvent) // @ game+0x3322a90
+	void _1(); // Function Projectile_Gun.Projectile_Gun_C._1 // (BlueprintCallable|BlueprintEvent) // @ game+0x3322a90
+	void (int32_t EntryPoint); // Function Projectile_Gun.Projectile_Gun_C. // (Final|UbergraphFunction) // @ game+0x3322a90
+};
+

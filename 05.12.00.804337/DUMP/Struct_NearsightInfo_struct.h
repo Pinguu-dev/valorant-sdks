@@ -1,0 +1,19 @@
+// UserDefinedStruct Struct_NearsightInfo.Struct_NearsightInfo
+// Size: 0x6c (Inherited: 0x00)
+struct FStruct_NearsightInfo {
+	float NearSight_On_19_370B3B1E4541BCB6DC47C0917F21C1FE; // 0x00(0x04)
+	float Occluder_Radius_26_A16D52954CD480EE761C9FA1F0E70111; // 0x04(0x04)
+	struct FLinearColor Occluder_BaseColor_28_39EF0E464F363340E37536843B7F7CFF; // 0x08(0x10)
+	float Fade_Radius_27_28C2CE404B411892116FD8BA97973F3C; // 0x18(0x04)
+	struct FLinearColor Fade_BaseColor_30_9A93BFE34DB4B1032E21259B21782EC7; // 0x1c(0x10)
+	struct FLinearColor Fade_DepthColor_33_DA9BA71D4F83ED60C1E0F7AFD6FA64C6; // 0x2c(0x10)
+	float Fade_ColorDepth_40_4FD779EE4F3914B6D9A669919B4A5576; // 0x3c(0x04)
+	float Fade_FogDepth_41_24C5AE49491D10575B9CC5A04F0F3EDC; // 0x40(0x04)
+	struct FLinearColor Fresnel_Color_52_E2A7D5184FD6F72666911586920DB7AE; // 0x44(0x10)
+	float Fresnel_Multiply_53_CBE7F4BD4A66733606C3D98A42DB76A4; // 0x54(0x04)
+	float Fresnel_Power_54_A4C9C683452F98B3703FEEB938EDD5E1; // 0x58(0x04)
+	char pad_5C[0x4]; // 0x5c(0x04)
+	struct AActor* CutoutObject_57_450412484E59FEE73BAE85A89A7F961F; // 0x60(0x08)
+	float CutoutSize_60_DA4EF19F4868866D32C0C0B96177C440; // 0x68(0x04)
+};
+
