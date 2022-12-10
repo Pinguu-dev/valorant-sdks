@@ -1,0 +1,26 @@
+// UserDefinedStruct KillBannerStruct.KillBannerStruct
+// Size: 0xb0 (Inherited: 0x00)
+struct FKillBannerStruct {
+	struct FLinearColor PrimaryColor_2_E5FCE8F2449464E9BE54588D1A1DDA81; // 0x00(0x10)
+	struct UOptionalKillBannerEffects_Parent_C* OptionalEffects_9_A3519EB94C0895ECBA6551A079FC2EE5; // 0x10(0x08)
+	struct UTexture2D* BackgroundFrame_TXT_12_AE806B364880513036A646929D3B6758; // 0x18(0x08)
+	struct UTexture2D* BackgroundFrame_DSLV_14_6635B10B4261B551BF81D1A4FBF2DF04; // 0x20(0x08)
+	struct UTexture2D* KillWheel-TXT_16_FEBDF04D4D730BD70C7995B402C44EF2; // 0x28(0x08)
+	struct UTexture2D* KillWheel_Slice_Default_18_A2EF828C4325ABF6030B19962A75A149; // 0x30(0x08)
+	struct UTexture2D* KillWheel_Slice_Hover_20_493CD45B4598268ADD2FA380C4354AB8; // 0x38(0x08)
+	float KillWheel_Slice_Radius_23_93B498D8455F7ECBDF0367ADF77B93E3; // 0x40(0x04)
+	char pad_44[0x4]; // 0x44(0x04)
+	struct UTexture2D* Badge_Default_TXT_29_50160A5A4C36A394A83226BD4C657FF8; // 0x48(0x08)
+	struct FVector2D Badge_HeadshotOffset_34_46CE41534C94C72E84BC8195F948FA17; // 0x50(0x08)
+	struct UTexture2D* Badge_DSLV_28_8BA9284A4916700DC0B6FB8C7B83D9E9; // 0x58(0x08)
+	struct TArray<struct UPaperFlipbook*> FlipBookFX_40_14D5E76C4960D85642D1518E610A489B; // 0x60(0x10)
+	struct UAkAudioEvent* Sound_Appear_43_E68DB6A74381CE1688E8258E8CA11515; // 0x70(0x08)
+	struct UAkAudioEvent* Sound_ReAppear_62_E338B12F43E49760EA023CBB3524DE40; // 0x78(0x08)
+	struct UAkAudioEvent* Sound_Kill_47_9B1FDAB843DC6512CC6DEBBFD285D954; // 0x80(0x08)
+	struct UAkAudioEvent* Sound_DoubleKill_49_8199936D41C25E655FC118B3DA0B872A; // 0x88(0x08)
+	struct UAkAudioEvent* Sound_TripleKill_53_42692B884F482A6931BC6C866150C6B8; // 0x90(0x08)
+	struct UAkAudioEvent* Sound_QuadraKill_55_C843BB9C412F8CA18FA293B4A540C23B; // 0x98(0x08)
+	struct UAkAudioEvent* Sound_PentaKill_57_5B911D164B9C15F47622B882028A6C4C; // 0xa0(0x08)
+	struct UAkAudioEvent* Sound_OverKill_61_CEE59617464E924CBC7649A3520DC1AA; // 0xa8(0x08)
+};
+
