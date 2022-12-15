@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass BasePistol_MagicSpline_PrimaryAsset.BasePistol_MagicSpline_PrimaryAsset_C
+// Size: 0x1f0 (Inherited: 0x1f0)
+struct UBasePistol_MagicSpline_PrimaryAsset_C : UEquippableSkinDataAsset {
+};
+

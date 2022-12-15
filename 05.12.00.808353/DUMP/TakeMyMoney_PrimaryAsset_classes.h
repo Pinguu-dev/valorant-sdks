@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass TakeMyMoney_PrimaryAsset.TakeMyMoney_PrimaryAsset_C
+// Size: 0xc8 (Inherited: 0xc8)
+struct UTakeMyMoney_PrimaryAsset_C : USprayDataAsset {
+};
+

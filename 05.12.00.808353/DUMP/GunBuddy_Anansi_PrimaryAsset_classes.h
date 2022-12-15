@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass GunBuddy_Anansi_PrimaryAsset.GunBuddy_Anansi_PrimaryAsset_C
+// Size: 0xc0 (Inherited: 0xc0)
+struct UGunBuddy_Anansi_PrimaryAsset_C : UEquippableCharmDataAsset {
+};
+
