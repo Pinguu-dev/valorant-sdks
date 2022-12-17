@@ -17,7 +17,7 @@ struct UWarningMessageHUD_C : UCoordinatedHUDElement {
 	int32_t LifeSpan; // 0x340(0x04)
 	char pad_344[0x4]; // 0x344(0x04)
 	struct FText MessageText; // 0x348(0x18)
-	struct FText SubText; // 0x360(0x18)
+	struct FText Subtext; // 0x360(0x18)
 	struct FTimerHandle WarningTimer; // 0x378(0x08)
 	struct UAkAudioEvent* AudioPulse; // 0x380(0x08)
 	int32_t MessageCount; // 0x388(0x04)
@@ -29,10 +29,10 @@ struct UWarningMessageHUD_C : UCoordinatedHUDElement {
 
 	void AdjustLayoutForDevice(); // Function WarningMessageHUD.WarningMessageHUD_C.AdjustLayoutForDevice // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	enum class ESlateVisibility Get_SubText_Visibility(); // Function WarningMessageHUD.WarningMessageHUD_C.Get_SubText_Visibility // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x33231a0
-	void SetupWarningText(int32_t LifeSpan, struct FText MessageText, struct FText MessageTwoText, struct FText SubText, struct UAkAudioEvent* AkEvent, bool Continuous, float PulseTime, bool LoopAudio, bool PlayIntroAndOutro); // Function WarningMessageHUD.WarningMessageHUD_C.SetupWarningText // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
+	void SetupWarningText(int32_t LifeSpan, struct FText MessageText, struct FText MessageTwoText, struct FText Subtext, struct UAkAudioEvent* AkEvent, bool Continuous, float PulseTime, bool LoopAudio, bool PlayIntroAndOutro); // Function WarningMessageHUD.WarningMessageHUD_C.SetupWarningText // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void PlayWarning(); // Function WarningMessageHUD.WarningMessageHUD_C.PlayWarning // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void Destruct(); // Function WarningMessageHUD.WarningMessageHUD_C.Destruct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x33231a0
-	void UpdateWarningText(struct FText MessageText, struct FText SubText); // Function WarningMessageHUD.WarningMessageHUD_C.UpdateWarningText // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
+	void UpdateWarningText(struct FText MessageText, struct FText Subtext); // Function WarningMessageHUD.WarningMessageHUD_C.UpdateWarningText // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void UpdateColor(struct FSlateColor TintColor); // Function WarningMessageHUD.WarningMessageHUD_C.UpdateColor // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void OnCinemtaticModeChanged(); // Function WarningMessageHUD.WarningMessageHUD_C.OnCinemtaticModeChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void Construct(); // Function WarningMessageHUD.WarningMessageHUD_C.Construct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x33231a0

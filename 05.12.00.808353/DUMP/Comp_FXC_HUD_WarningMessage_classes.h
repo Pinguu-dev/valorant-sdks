@@ -7,7 +7,7 @@ struct UComp_FXC_HUD_WarningMessage_C : UComp_FXC_HUD_C {
 	int32_t LifeSpan; // 0x148(0x04)
 	char pad_14C[0x4]; // 0x14c(0x04)
 	struct FText MessageText; // 0x150(0x18)
-	struct FText SubText; // 0x168(0x18)
+	struct FText Subtext; // 0x168(0x18)
 	struct UAkAudioEvent* AkEvent; // 0x180(0x08)
 	bool Continuous; // 0x188(0x01)
 	char pad_189[0x3]; // 0x189(0x03)

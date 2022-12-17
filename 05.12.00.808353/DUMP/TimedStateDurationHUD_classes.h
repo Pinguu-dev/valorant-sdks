@@ -11,7 +11,7 @@ struct UTimedStateDurationHUD_C : UCoordinatedHUDElement {
 	struct FText TitleText; // 0x310(0x18)
 	bool CanEndEarly; // 0x328(0x01)
 	char pad_329[0x7]; // 0x329(0x07)
-	struct FText SubText; // 0x330(0x18)
+	struct FText Subtext; // 0x330(0x18)
 	bool HideWhenUnequipped; // 0x348(0x01)
 	bool FillBar; // 0x349(0x01)
 	char pad_34A[0x6]; // 0x34a(0x06)
@@ -28,7 +28,7 @@ struct UTimedStateDurationHUD_C : UCoordinatedHUDElement {
 	enum class ESlateVisibility GetVisibility_1(); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.GetVisibility_1 // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x33231a0
 	enum class ESlateVisibility GetEndEarlyVisibility(); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.GetEndEarlyVisibility // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x33231a0
 	void Tick(struct FGeometry MyGeometry, float InDeltaTime); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.Tick // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x33231a0
-	void SetUp(struct UTimedStateComponent* State, struct FText Title, bool ShowSubText, struct FText SubText, bool HideWhenUnequipped, struct FWidgetTransform TransformOffset, bool FillBar, float StartTimeOffset, bool AllowThirdPerson); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.SetUp // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
+	void SetUp(struct UTimedStateComponent* State, struct FText Title, bool ShowSubText, struct FText Subtext, bool HideWhenUnequipped, struct FWidgetTransform TransformOffset, bool FillBar, float StartTimeOffset, bool AllowThirdPerson); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.SetUp // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void Construct(); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.Construct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x33231a0
 	void OnCinemtaticModeChanged(); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.OnCinemtaticModeChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void ExecuteUbergraph_TimedStateDurationHUD(int32_t EntryPoint); // Function TimedStateDurationHUD.TimedStateDurationHUD_C.ExecuteUbergraph_TimedStateDurationHUD // (Final|UbergraphFunction|HasDefaults) // @ game+0x33231a0

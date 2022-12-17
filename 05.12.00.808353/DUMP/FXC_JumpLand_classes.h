@@ -1,5 +1,0 @@
-// BlueprintGeneratedClass FXC_JumpLand.FXC_JumpLand_C
-// Size: 0x568 (Inherited: 0x568)
-struct AFXC_JumpLand_C : AFXC_GroundSound_C {
-};
-

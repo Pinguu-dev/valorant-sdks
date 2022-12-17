@@ -29,7 +29,7 @@ struct AFXC_Global_Reveal_C : AEffectContainer {
 	void LogDebugMessage(struct FString Message); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.LogDebugMessage // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void TryInitialize(); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.TryInitialize // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void GetDynamicMaterialInstance(struct UMaterialInstanceDynamic*& DynamicMaterialInstance); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.GetDynamicMaterialInstance // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x33231a0
-	void UpdateWarningHUD_Text(struct FText MessageText, struct FText SubText); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.UpdateWarningHUD_Text // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
+	void UpdateWarningHUD_Text(struct FText MessageText, struct FText Subtext); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.UpdateWarningHUD_Text // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void ShouldBeHidden(bool& ShouldBeHidden); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.ShouldBeHidden // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x33231a0
 	void SetupNewMeshMaterials(); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.SetupNewMeshMaterials // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x33231a0
 	void StartEffect(struct AActor* Target, struct UObject* Context, float StartTime, bool FirstPerson); // Function FXC_Global_Reveal.FXC_Global_Reveal_C.StartEffect // (Event|Public|BlueprintEvent) // @ game+0x33231a0
