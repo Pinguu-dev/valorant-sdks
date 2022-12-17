@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass AscentWallbang_Level1_PrimaryAsset.AscentWallbang_Level1_PrimaryAsset_C
+// Size: 0xe8 (Inherited: 0xe8)
+struct UAscentWallbang_Level1_PrimaryAsset_C : USprayLevelDataAsset {
+};
+

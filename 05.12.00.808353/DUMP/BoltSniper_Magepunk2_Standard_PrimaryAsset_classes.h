@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass BoltSniper_Magepunk2_Standard_PrimaryAsset.BoltSniper_Magepunk2_Standard_PrimaryAsset_C
+// Size: 0x170 (Inherited: 0x170)
+struct UBoltSniper_Magepunk2_Standard_PrimaryAsset_C : UEquippableSkinChromaDataAsset {
+};
+
