@@ -1,5 +1,0 @@
-// BlueprintGeneratedClass No_Judge_Level1_PrimaryAsset.No_Judge_Level1_PrimaryAsset_C
-// Size: 0xe8 (Inherited: 0xe8)
-struct UNo_Judge_Level1_PrimaryAsset_C : USprayLevelDataAsset {
-};
-

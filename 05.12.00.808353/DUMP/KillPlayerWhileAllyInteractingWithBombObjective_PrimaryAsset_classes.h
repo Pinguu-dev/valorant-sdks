@@ -1,5 +1,0 @@
-// BlueprintGeneratedClass KillPlayerWhileAllyInteractingWithBombObjective_PrimaryAsset.KillPlayerWhileAllyInteractingWithBombObjective_PrimaryAsset_C
-// Size: 0xb0 (Inherited: 0xb0)
-struct UKillPlayerWhileAllyInteractingWithBombObjective_PrimaryAsset_C : UObjectiveDataAsset {
-};
-

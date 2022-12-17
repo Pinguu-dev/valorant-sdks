@@ -1,5 +1,0 @@
-// BlueprintGeneratedClass AstraVolunteers_Level1_PrimaryAsset.AstraVolunteers_Level1_PrimaryAsset_C
-// Size: 0xe8 (Inherited: 0xe8)
-struct UAstraVolunteers_Level1_PrimaryAsset_C : USprayLevelDataAsset {
-};
-
